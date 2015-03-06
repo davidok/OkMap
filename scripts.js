@@ -10,5 +10,5 @@ var nycCenters = healthCenterData.rows;
 for (var i = 0; i < nycCenters.length; i++) {
 	var individualHealthCenter = nycCenters[i]
 	var marker = L.marker([individualHealthCenter.latitude, individualHealthCenter.longitude]).addTo(map);
-	marker.bindPopup("<b>" + individualHealthCenter.FullAddress + "</b><br>" + individualHealthCenter.ProgramName);
+	marker.bindPopup("<b>" + individualHealthCenter.NameofCenter + "</b><br>" + individualHealthCenter.FullAddress);
 } //end of for loop
