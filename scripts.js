@@ -1,0 +1,1 @@
+var map = L.map('healthCenterMap').setView([51.505, -0.09], 13);
